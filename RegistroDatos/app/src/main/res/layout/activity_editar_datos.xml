@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/espacioVertical"
+    android:paddingLeft="@dimen/espacioHorizontal"
+    android:paddingBottom="@dimen/espacioVertical"
+    android:paddingRight="@dimen/espacioHorizontal"
+    tools:context="com.pmadera.registrodatos.EditarDatos">
+
+    <TextView
+        android:id="@+id/tvConfirmar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/tituloConfirmacion"
+        android:textSize="@dimen/tamañoTitulo"
+        android:theme="@style/MiEditText" />
+
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvConfirmar"/>
+
+    <TextView
+        android:id="@+id/tvFechaNacimiento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvNombre"/>
+
+    <TextView
+    android:id="@+id/tvTelefono"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/tvFechaNacimiento"/>
+
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTelefono"/>
+
+    <TextView
+        android:id="@+id/tvDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/altoDescripcion"
+        android:layout_below="@id/tvEmail"/>
+
+    <Button
+        android:id="@+id/btnEditar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/MiBotonRegistro"
+        android:text="@string/textoBotonEtitar"
+        android:layout_below="@id/tvDescripcion"/>
+
+</RelativeLayout>

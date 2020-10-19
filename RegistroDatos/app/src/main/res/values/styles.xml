@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MiBotonRegistro" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal" tools:targetApi="lollipop">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorRojo</item>
+        <item name="android:textColor">@color/colorBlanco</item>
+    </style>
+
+    <style name="MiEditText" parent="Theme.AppCompat.Light">
+        <item name="android:colorForeground" tools:targetApi="lollipop">@color/colorPrimary</item>
+        <item name="android:colorControlActivated" tools:targetApi="lollipop">@color/colorRojo</item>
+    </style>
+
+    <style name="MisTItulos" parent="Theme.AppCompat.Light">
+        <item name="android:colorForeground" >@color/colorAccent</item>
+
+    </style>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tamañoTitulo">30dp</dimen>
+    <dimen name="altoDescripcion">90dp</dimen>
+    <dimen name="espacioHorizontal">16dp</dimen>
+    <dimen name="espacioVertical">16dp</dimen>
+
+
+
+</resources>

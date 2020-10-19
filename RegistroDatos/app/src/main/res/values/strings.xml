@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Registro de datos</string>
+    <string name="hintNombre">Nombre completo</string>
+    <string name="hintTelefono">Telefono</string>
+    <string name="hintEmail">E-Mail</string>
+    <string name="hintDescripcion">Descripción contacto</string>
+    <string name="textoBotonRegistro">Siguiente</string>
+    <string name="textoBotonEtitar">Editar datos</string>
+    <string name="textoFecha">Fecha Nacimiento</string>
+
+
+    <string name="tituloConfirmacion">Confirmación</string>
+
+
+</resources>
